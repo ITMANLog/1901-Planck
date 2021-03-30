@@ -10,7 +10,7 @@
 
 ## 1. 内容简介
 
-1900年，普朗克在研究黑体辐射问题时，基于能量量子化的分析方法发现了$\epsilon=h\nu$这个神奇的公式（其中，$\epsilon$表示能量，$\nu$表示频率，$h$即普朗克常数，取值为$6.62607015 \times 10^{-34}$，量纲为$J\cdot s$“焦耳秒”），为后来量子物理大厦的构建提供了“量子化假设”和“普朗克常数”这两块重要基石。为了更加准确理解量子的科学内涵，本文通过研读普朗克1901年发表在德国物理学年鉴《Annalen Der Physik》上的研究论文[^Planck1]（因为不懂德文，实际看的是英文翻译版的[^Planck2]），基本弄懂了普朗克常数的来龙去脉，对量子化假设也有了更清晰的认识。此外，学习过程中，结合自己的思考，从中发现了一些新的有趣的内容。
+1900年，普朗克在研究黑体辐射问题时，基于能量量子化的分析方法发现了$\epsilon=h\nu$这个神奇的公式（其中，$\epsilon$表示能量，$\nu$表示频率，$h$即普朗克常数，取值为$6.62607015 \times 10^{-34}$，量纲为$J\cdot s$“焦耳秒”），为后来量子物理大厦的构建提供了“量子化假设”和“普朗克常数”这两块重要基石。为了更加准确理解量子的科学内涵，本文通过研读普朗克1901年发表在德国物理学年鉴《Annalen Der Physik》上的研究论文[^1]（因为不懂德文，实际看的是英文翻译版的[^2]），基本弄懂了普朗克常数的来龙去脉，对量子化假设也有了更清晰的认识。此外，学习过程中，结合自己的思考，从中发现了一些新的有趣的内容。
 
 ## 2. 普朗克要解决的问题
 针对当时黑体辐射实验的理论解释存在的问题（仅在一定范围内适用），设法建立一个更加完善的分析理论，使得各种条件下的理论分析结果都能与实验数据相符合。
@@ -35,7 +35,7 @@
 可以看到，温度越高，辐射越强，而且在不同温度下辐射最强的那个波长$\lambda_{max}$各不相同，这就是热铁块呈现不同颜色的原因。据说运用这种曲线关系，通过测量太阳光中不同颜色光的强度，就可算出太阳的温度。后来，据说还可以用来对宇宙温度进行测算，可见这其中蕴含了某个普遍适用的物理规律。
 
 ## 4. 普朗克的研究思路
-1900年，普朗克研究黑体辐射问题的时候，物理学界已经积累了较多实验数据，也给出了一些理论解释。普朗克主要在维恩研究成果（Wien approximation[^Wien]）的基础上，通过适当改进某些假设及其相关物理量的计算方式，以建立更广泛适用的理论。根据普朗克的说明，维恩理论中存在的不合理假设，这在当时已经有人提出，而他的论文主要工作是尝试修正这些假设，以找到一个更符合实验结果的新的理论计算公式。
+1900年，普朗克研究黑体辐射问题的时候，物理学界已经积累了较多实验数据，也给出了一些理论解释。普朗克主要在维恩研究成果（Wien approximation[^3]）的基础上，通过适当改进某些假设及其相关物理量的计算方式，以建立更广泛适用的理论。根据普朗克的说明，维恩理论中存在的不合理假设，这在当时已经有人提出，而他的论文主要工作是尝试修正这些假设，以找到一个更符合实验结果的新的理论计算公式。
 
 具体来说，普朗克主要改进了维恩关于黑体辐射整个系统的熵的分析假设和计算方式。论文中，普朗克简要说明了他改进熵的计算方式的主要过程：
 1. 从熵的定义公式$d S=\frac{d U}{T}$出发，计算得出与维恩一样的结果；
@@ -100,16 +100,16 @@
 1. 论文在提到量子化假设和引入普朗克常数这两个重要地方都与玻尔兹曼熵公式有关：一个是为了能够使用玻尔兹曼熵公式做计算需要将能量看作（interpret as）某个微小等分能量$\epsilon$的整数倍；一个是为了使得玻尔兹曼公式算出的熵与基于定义公式算出的熵相等而推出能量$\epsilon$与辐射频率$\nu$之间的正比关系$\epsilon=h\nu$。再深入分析，会发现更多有趣的内容：
     1.1. 研究一下从玻尔兹曼熵公式$S=klogW$得到的黑体辐射系统的熵计算公式$S=k\{(1+\frac{U}{\epsilon})log(1+\frac{U}{\epsilon})-\frac{U}{\epsilon}log(\frac{U}{\epsilon})\}$，发现在这个公式中，$\epsilon$这个微小等分能量块显然不能无限小，否则系统熵$S$将无限大，也就是说，$S=klogW$熵公式的使用条件中暗含了量子化的假设；
     1.2. 为什么玻尔兹曼熵公式会暗含量子化假设呢？个人觉得，$S=klogW$应该是热力学研究气体熵的时候对气体分子状态进行统计分析得到的公式，而气体肯定是由整数个相同气体分子组成的，这本身就是物理事实（可称之为“气体量子化”），所以普朗克在使用公式$S=klogW$来计算黑体辐射的系统熵时，公式本身就已经把量子化这个物理事实带进来了；
-    1.3. 早在1877年，玻尔兹曼就给出$S=klogW$这个公式，为什么一直没人发现其中暗含的量子化这个普遍的物理事实呢？个人觉得，热力学研究中，气体量子化是显然的事实（或许在玻尔兹曼的时候也没那么显然，据说当时马赫就曾质疑玻尔兹曼[^Mach]），而在黑体辐射研究中，系统总能量是量子化的，这给人的感觉总不是那么显然。
+    1.3. 早在1877年，玻尔兹曼就给出$S=klogW$这个公式，为什么一直没人发现其中暗含的量子化这个普遍的物理事实呢？个人觉得，热力学研究中，气体量子化是显然的事实（或许在玻尔兹曼的时候也没那么显然，据说当时马赫就曾质疑玻尔兹曼[^4]），而在黑体辐射研究中，系统总能量是量子化的，这给人的感觉总不是那么显然。
 2. 现在介绍黑体辐射的很多资料都把瑞利-金斯公式、维恩公式和普朗克公式一起讲，而且常会给人一个错觉：普朗克突然获得天启，神奇般提出量子化假设和$\epsilon=h\nu$公式，并推导出普朗克辐射公式，一举征服了瑞利-金斯和维恩（普朗克公式在低频条件下退化为瑞利-金斯公式，在高频条件下退化为维恩公式）。仔细读完普朗克的论文原文，发现现在网上的一些讲法有以讹传讹的嫌疑：
     2.1. 普朗克的论文主要是在维恩研究基础上做的改进，从而得到了黑体辐射的普朗克公式，应该跟瑞利-金斯公式没什么关系，因为论文中根本就没提到过瑞利-金斯公式，不管是参考文献还是正文都没提到过；
-    2.2. 网上也有一些说法认为普朗克先提出了能量量子化假设，才推导得到普朗克辐射公式。这样的讲法可能来自不同的参考资料。本文主要参考普朗克自己的论文，应该更为准确。此外Wikipedia可作为本文观点的一个佐证，其中词条Planck postulate[^Planck_postulate]说到：“he (Planck) considered quantization as being purely a mathematical trick”，即普朗克认为量子化只是当时用来处理问题的一个纯数学技巧。
-3. 据说早在1877年，玻尔兹曼就曾提出能量量子化的观点[^Boltzmann]，估计量子化这个深刻的物理事实应该在玻尔兹曼推导其公式$S=klogW$时，就有所领悟，只是由于思想太超前，当时人都不好接受，甚至到1900年的普朗克也仅是从数学工具的角度而不是从物理事实的角度来理解量子化。所以要搞清楚量子的深刻内涵，可能还得再往前追溯到1877年的玻尔兹曼。
+    2.2. 网上也有一些说法认为普朗克先提出了能量量子化假设，才推导得到普朗克辐射公式。这样的讲法可能来自不同的参考资料。本文主要参考普朗克自己的论文，应该更为准确。此外Wikipedia可作为本文观点的一个佐证，其中词条Planck postulate[^5]说到：“he (Planck) considered quantization as being purely a mathematical trick”，即普朗克认为量子化只是当时用来处理问题的一个纯数学技巧。
+3. 据说早在1877年，玻尔兹曼就曾提出能量量子化的观点[^6]，估计量子化这个深刻的物理事实应该在玻尔兹曼推导其公式$S=klogW$时，就有所领悟，只是由于思想太超前，当时人都不好接受，甚至到1900年的普朗克也仅是从数学工具的角度而不是从物理事实的角度来理解量子化。所以要搞清楚量子的深刻内涵，可能还得再往前追溯到1877年的玻尔兹曼。
 
 #### 参考资料
-[^Planck1]: M. Planck. (1901). Ueber das Gesetz der Energieverteilung im Normalspectrum. Annalen Der Physik, 4, 553. Retrieved from http://www.physik.uni-augsburg.de/annalen/history/historic-papers/1901_309_553-563.pdf 这是德文原版，该版论文发表之前，普朗克已在1900年的学术会议上发表过相关研究内容
-[^Planck2]: M. Planck. (1901). On the Law of Distribution of Energy in the Normal Spectrum. Annals of Physics, 4, 553. Retrieved from http://people.isy.liu.se/jalar/kurser/QF/references/Planck1901.pdf 这是个英文翻译版，网上有各种不同的翻译版本，要与本文内容对应，请注意版本是否匹配
-[^Wien]: Wikipedia, Wien's approximation (also sometimes called Wien's law or the Wien distribution law) at https://en.wikipedia.org/wiki/Wien_approximation
-[^Mach]: Wikipedia, Ernst Mach, at https://en.wikipedia.org/wiki/Ernst_Mach. He famously declared, after an 1897 lecture by Ludwig Boltzmann at the Imperial Academy of Science in Vienna: "I don't believe that atoms exist!"
-[^Planck_postulate]: Wikipedia, Planck postulate, at https://en.wikipedia.org/wiki/Planck_postulate
-[^Boltzmann]: Wikipedia, Ludwig Boltzmann, at https://en.wikipedia.org/wiki/Ludwig_Boltzmann. Boltzmann could also be considered one of the forerunners of quantum mechanics due to his suggestion in 1877 that the energy levels of a physical system could be discrete.
+[^1]: M. Planck. (1901). Ueber das Gesetz der Energieverteilung im Normalspectrum. Annalen Der Physik, 4, 553. Retrieved from http://www.physik.uni-augsburg.de/annalen/history/historic-papers/1901_309_553-563.pdf 这是德文原版，该版论文发表之前，普朗克已在1900年的学术会议上发表过相关研究内容
+[^2]: M. Planck. (1901). On the Law of Distribution of Energy in the Normal Spectrum. Annals of Physics, 4, 553. Retrieved from http://people.isy.liu.se/jalar/kurser/QF/references/Planck1901.pdf 这是个英文翻译版，网上有各种不同的翻译版本，要与本文内容对应，请注意版本是否匹配
+[^3]: Wikipedia, Wien's approximation (also sometimes called Wien's law or the Wien distribution law) at https://en.wikipedia.org/wiki/Wien_approximation
+[^4]: Wikipedia, Ernst Mach, at https://en.wikipedia.org/wiki/Ernst_Mach. He famously declared, after an 1897 lecture by Ludwig Boltzmann at the Imperial Academy of Science in Vienna: "I don't believe that atoms exist!"
+[^5]: Wikipedia, Planck postulate, at https://en.wikipedia.org/wiki/Planck_postulate
+[^6]: Wikipedia, Ludwig Boltzmann, at https://en.wikipedia.org/wiki/Ludwig_Boltzmann. Boltzmann could also be considered one of the forerunners of quantum mechanics due to his suggestion in 1877 that the energy levels of a physical system could be discrete.

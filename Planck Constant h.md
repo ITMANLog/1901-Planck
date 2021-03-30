@@ -1,8 +1,6 @@
 # <center>普朗克常数h的诞生和量子化假设的由来</center>
 
-<center>
-作者: ITMANLog (BezmLogShang@outlook.com)； 时间：2021年3月27日
-</center>
+<center> 作者: ITMANLog (BezmLogShang@outlook.com)； 时间：2021年3月27日 </center>
 
 
 #### 题记

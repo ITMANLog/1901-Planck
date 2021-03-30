@@ -108,8 +108,13 @@
 
 #### 参考资料
 [^1]: M. Planck. (1901). Ueber das Gesetz der Energieverteilung im Normalspectrum. Annalen Der Physik, 4, 553. Retrieved from http://www.physik.uni-augsburg.de/annalen/history/historic-papers/1901_309_553-563.pdf 这是德文原版，该版论文发表之前，普朗克已在1900年的学术会议上发表过相关研究内容
+
 [^2]: M. Planck. (1901). On the Law of Distribution of Energy in the Normal Spectrum. Annals of Physics, 4, 553. Retrieved from http://people.isy.liu.se/jalar/kurser/QF/references/Planck1901.pdf 这是个英文翻译版，网上有各种不同的翻译版本，要与本文内容对应，请注意版本是否匹配
+
 [^3]: Wikipedia, Wien's approximation (also sometimes called Wien's law or the Wien distribution law) at https://en.wikipedia.org/wiki/Wien_approximation
+
 [^4]: Wikipedia, Ernst Mach, at https://en.wikipedia.org/wiki/Ernst_Mach. He famously declared, after an 1897 lecture by Ludwig Boltzmann at the Imperial Academy of Science in Vienna: "I don't believe that atoms exist!"
+
 [^5]: Wikipedia, Planck postulate, at https://en.wikipedia.org/wiki/Planck_postulate
+
 [^6]: Wikipedia, Ludwig Boltzmann, at https://en.wikipedia.org/wiki/Ludwig_Boltzmann. Boltzmann could also be considered one of the forerunners of quantum mechanics due to his suggestion in 1877 that the energy levels of a physical system could be discrete.

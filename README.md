@@ -10,8 +10,6 @@
 
 全文链接：https://itmanlog.github.io/1901-Planck/
 
-第1章链接：https://itmanlog.github.io/1901-Planck/Chapter1
-
 PDF下载：https://github.com/ITMANLog/1901-Planck/blob/main/Planck%20Constant%20h.pdf
 
 
